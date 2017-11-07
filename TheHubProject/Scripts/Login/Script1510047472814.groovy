@@ -27,14 +27,14 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('http://hubapp.local/#/home')
 
 'Login Button on Homepage\r\n'
-WebUI.click(findTestObject('Login/Page_Home  ELITE Club Deal/Login button'))
+WebUI.click(findTestObject('Login/Login button'))
 
-WebUI.waitForElementVisible(findTestObject('Login/Page_Log In  ELITE Club Deal/Username field'), 5)
+WebUI.waitForElementVisible(findTestObject('Login/Username field'), 5)
 
-WebUI.setText(findTestObject('Login/Page_Log In  ELITE Club Deal/Username field'), 'user-admin')
+WebUI.setText(findTestObject('Login/Username field'), 'user-admin')
 
-WebUI.setText(findTestObject('Login/Page_Log In  ELITE Club Deal/Password field'), 'Asdasd12#')
+WebUI.setText(findTestObject('Login/Password field'), 'Asdasd12#')
 
 'Submit login button\r\n'
-WebUI.click(findTestObject('Login/Page_Log In  ELITE Club Deal/Submit Button'))
+WebUI.click(findTestObject('Login/Submit Button'))
 

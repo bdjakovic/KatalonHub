@@ -20,63 +20,63 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/New Deal button'), 5)
+WebUI.waitForElementVisible(findTestObject('Equity Deal/New Deal button'), 5)
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/New Deal button'))
+WebUI.click(findTestObject('Equity Deal/New Deal button'))
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Equity deal button'))
+WebUI.click(findTestObject('Equity Deal/Equity deal button'))
 
-WebUI.setText(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Deal Name Field'), 'Bojan2')
+WebUI.setText(findTestObject('Equity Deal/Deal Name Field'), 'Bojan2')
 
-WebUI.selectOptionByValue(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Deal Is dropdown'), '4', true)
+WebUI.selectOptionByValue(findTestObject('Equity Deal/Deal Is dropdown'), '4', true)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/ELITE Partner field'))
+WebUI.click(findTestObject('Equity Deal/ELITE Partner field'))
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/ELITE Partner field select'))
+WebUI.click(findTestObject('Equity Deal/ELITE Partner field select'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Use Of Proceeds field'))
+WebUI.click(findTestObject('Equity Deal/Use Of Proceeds field'))
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Use Of Proceeds field select'))
+WebUI.click(findTestObject('Equity Deal/Use Of Proceeds field select'))
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Entity Name field'))
+WebUI.click(findTestObject('Equity Deal/Entity Name field'))
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Entity Name field Select'))
+WebUI.click(findTestObject('Equity Deal/Entity Name field Select'))
 
-WebUI.selectOptionByValue(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Platform Status'), '1', true)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Next button'))
-
-WebUI.setText(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Final Price for Follow-on Investor field'), '123')
-
-WebUI.setText(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Number of Shares Issued field'), '123')
+WebUI.selectOptionByValue(findTestObject('Equity Deal/Platform Status'), '1', true)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Expected Close Date field'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Equity Deal/Next button'))
+
+WebUI.setText(findTestObject('Equity Deal/Final Price for Follow-on Investor field'), '123')
+
+WebUI.setText(findTestObject('Equity Deal/Number of Shares Issued field'), '123')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Expected Close Date select'))
+WebUI.click(findTestObject('Equity Deal/Expected Close Date field'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Guarantor dropdown'), '0', true)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Next button'))
+WebUI.click(findTestObject('Equity Deal/Expected Close Date select'))
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Next button'))
+WebUI.selectOptionByValue(findTestObject('Equity Deal/Guarantor dropdown'), '0', true)
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Next button'))
+WebUI.click(findTestObject('Equity Deal/Next button'))
 
-WebUI.click(findTestObject('Equity Deal/Page_Deals  ELITE Club Deal/Finish button'))
+WebUI.click(findTestObject('Equity Deal/Next button'))
+
+WebUI.click(findTestObject('Equity Deal/Next button'))
+
+WebUI.click(findTestObject('Equity Deal/Finish button'))
 
 WebUI.closeBrowser()
 
