@@ -25,3 +25,6 @@ WebUI.callTestCase(findTestCase('Create a new equity deal'), [:], FailureHandlin
 
 WebUI.comment('PROBA')
 
+WebUI.comment('PROBA')
+
+WebUI.comment('PROBA')
