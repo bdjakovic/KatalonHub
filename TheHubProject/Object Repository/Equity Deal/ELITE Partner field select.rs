@@ -6,12 +6,11 @@
    <elementGuidId>f24248c7-d9c3-4c26-b9eb-a1c2fcf70bab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>#deal-wizard-p-0 > div:nth-child(4) > div > div > div.selectize-dropdown.single.form-control</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>#deal-wizard-p-0 > div:nth-child(4) > div > div > div.selectize-dropdown.single.form-control</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
