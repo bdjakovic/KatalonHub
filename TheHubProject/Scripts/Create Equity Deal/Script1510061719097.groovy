@@ -23,3 +23,9 @@ WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Create a new equity deal'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.comment('PROBA')
+
+WebUI.comment('PROBA')
+
+WebUI.comment('PROBA')
+
